@@ -1,6 +1,15 @@
 
 import React, {Component} from 'react'
 
+import 'react-date-picker/index.css'
+import DatePicker from 'react-date-picker'
+
+function onChange (a, b) {
+
+}
+
+var date = '2015-8-12';
+
 export default class MainView extends Component {
   constructor (props) {
     super(props);
@@ -10,9 +19,12 @@ export default class MainView extends Component {
 
   render () {
     return (
-      <div className="container">
-        <h1>Hello World</h1>
-      </div>
+      <DatePicker
+        minDate='2014-04-04'
+        maxDate='2015-10-10'
+        date={date}
+        onChange={onChange}
+      />
     );
   }
 }
