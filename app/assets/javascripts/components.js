@@ -1,3 +1,3 @@
 window.Components = window.Components || {};
 
-require('./components/all.js')
+require('./components/all.js');

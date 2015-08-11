@@ -5,7 +5,7 @@ import 'react-date-picker/index.css'
 import DatePicker from 'react-date-picker'
 
 function onChange (a, b) {
-
+  console.log(a);
 }
 
 var date = '2015-8-12';
