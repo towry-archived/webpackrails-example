@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var railsHotPlugin = require('railshot-webpack-plugin');
 
 module.exports = {
   resolve: {
@@ -19,4 +20,7 @@ module.exports = {
       {test:/\.css$/, loader: 'style-loader!css-loader'},
     ]
   },
+  plugins: [
+    railsHotPlugin()
+  ]
 }

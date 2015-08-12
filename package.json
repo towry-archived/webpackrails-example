@@ -13,6 +13,7 @@
   "author": "Towry Wang",
   "license": "MIT",
   "dependencies": {
+    "railshot-webpack-plugin": "^1.0.0",
     "react": "^0.13.3",
     "react-date-picker": "^3.1.2",
     "webpack": "^1.11.0"
