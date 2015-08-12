@@ -1,3 +1,5 @@
+ruby '2.0.0'
+
 # source 'https://ruby.taobao.org/'
 source 'https://ruby.taobao.org/'
 
