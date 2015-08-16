@@ -1,0 +1,9 @@
+<% unless @error %>
+var a = true;
+<% end %>
+
+var b = {
+  c: "<%= asset_path('name.js') %>"
+}
+
+module.exports = b;

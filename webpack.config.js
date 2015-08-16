@@ -12,8 +12,12 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loader: 'babel'}
-    ]
+      {test: /\.js\.jsx$/, loader: 'babel-loader'},
+    ],
+    noParse: [
+      /\.es6\.erb$/,
+      /\.scss\.erb$/,
+    ],
   },
   plugins: [
     railsHotPlugin()
