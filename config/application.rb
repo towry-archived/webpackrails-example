@@ -58,5 +58,8 @@ module Railstest
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # enable embed_erb feature
+    config.webpackrails.embed_erb = true
   end
 end

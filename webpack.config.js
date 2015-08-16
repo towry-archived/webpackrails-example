@@ -12,14 +12,14 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /\.js\.jsx$/, loader: 'babel-loader'},
-    ],
-    noParse: [
-      /\.es6\.erb$/,
-      /\.scss\.erb$/,
-    ],
+      {test: /\.js$/, loader: 'babel-loader'},
+      {test: /\.js.erb$/, loader: 'erb-loader'},
+    ]
   },
   plugins: [
     railsHotPlugin()
-  ]
+  ],
+  webpackrails: {
+    root: __dirname
+  }
 }
