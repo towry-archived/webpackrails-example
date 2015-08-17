@@ -61,5 +61,9 @@ module Railstest
 
     # enable embed_erb feature
     config.webpackrails.embed_erb = true
+
+    config.react.server_renderer_options = {
+        files: ['components2.js']
+    }
   end
 end

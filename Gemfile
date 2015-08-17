@@ -40,8 +40,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'react-rails', '~> 1.0'
+gem 'react-rails', '>= 1.1.0'
 
-# gem 'webpackrails' 
-# gem 'webpackrails', '~> 1.0'
-gem 'webpackrails', :path => 'lib/webpackrails'
+gem 'webpackrails', '>= 2.0'
+# gem 'webpackrails', :path => 'lib/webpackrails'
