@@ -20,3 +20,6 @@
 */.DS_Store
 
 Gemfile.lock
+
+/lib/reactssr-rails
+/public/assets/

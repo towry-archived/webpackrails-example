@@ -1,1 +1,6 @@
-<%= react_component('Components.MainView', {}, {prerender: true}) %>
+
+<%= react_ssr('WelcomeView', {name: "Towry Wang", side: {name: "name side"}}, {rerender: true}) %>
+
+<% content_for :footer do %>
+  <%= javascript_include_tag('components/welcome.js') %>
+<% end %>

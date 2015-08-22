@@ -12,6 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require test
-//= require react_ujs
-//= require components2
+//= require react
+//= require react_ssr

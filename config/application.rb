@@ -59,11 +59,16 @@ module Railstest
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+
     # enable embed_erb feature
-    config.webpackrails.embed_erb = true
+    config.webpackrails.embed_erb = false
 
     config.react.server_renderer_options = {
-        files: ['components2.js']
+        files: ['react.js']
     }
+
+    config.assets.precompile += %w(
+      components/welcome.js
+    )
   end
 end

@@ -13,7 +13,7 @@ module.exports = {
   module: {
     loaders: [
       {test: /\.js$/, loader: 'babel-loader'},
-      {test: /\.js.erb$/, loader: 'erb-loader'},
+      {test: /\.css$/, loader: 'style!css'}, 
     ]
   },
   plugins: [

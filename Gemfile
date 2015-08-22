@@ -43,4 +43,5 @@ gem 'jquery-rails'
 gem 'react-rails', '>= 1.1.0'
 
 gem 'webpackrails', '>= 2.0'
-# gem 'webpackrails', :path => 'lib/webpackrails'
+# gem 'reactssr-rails', '>= 1.0'
+gem 'reactssr-rails', :path => 'lib/reactssr-rails'
